@@ -34,12 +34,14 @@
     /* right-space shifts rest of the navbar (forward,backward,urlbar,etc.) to the right */
     /* if you want to increase/decrease space between window-controls and navbars: */
     /* set positive/smaller or negative value for right-space*/
+
+    /* set toolbar field background color when focused to dark-base */
+    --toolbar-field-focus-background-color: var(--dark-base) !important;
 }
 
 :root{
     /*--toolbar-field-color: var(--light) !important;
     --toolbar-field-background-color: var(--transparent)!important;*/
-    --toolbar-field-focus-background-color: var(--dark-base) !important;
 }
 #main-menubar {
     color: var(--light) !important;
@@ -123,21 +125,7 @@
         flex-direction: row-reverse;    }
 }
 
-/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/hide_tabs_toolbar.css made available under Mozilla Public License v. 2.0
-See the above repository for updates as well as full license text. */
 
-/* Hides tabs toolbar */
-/* For OSX use hide_tabs_toolbar_osx.css instead */
-
-/* Note, if you have either native titlebar or menubar enabled, then you don't really need this style.
- * In those cases you can just use: #TabsToolbar{ visibility: collapse !important }
- */
-
-/* IMPORTANT */
-/*
-Get window_control_placeholder_support.css
-Window controls will be all wrong without it
-*/
 
 :root[tabsintitlebar]{
     --uc-toolbar-height: 40px;
