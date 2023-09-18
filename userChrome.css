@@ -45,16 +45,6 @@
     color: var(--light) !important;
 }
 
-/*#
-TabsToolbar
-{
-    visibility: collapse !important;
-}
-*/ 
-
-#sidebar-header {
-    display: none;}
-
 :root:is([tabsintitlebar], [sizemode="fullscreen"]) {
     --uc-window-control-width: 138px; /* Space reserved for window controls (Win10) */
   /* Extra space reserved on both sides of the nav-bar to be able to drag the window */
