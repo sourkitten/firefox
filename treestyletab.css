@@ -59,6 +59,7 @@
     --contextual-identity-color-pink: #F687B3;
 }
 
+
 /************UNCUSTOMIZED CSS************/
 #tabbar-container #tabbar{
    margin-bottom: 15px !important;
@@ -76,8 +77,8 @@ tab-item:not(.collapsed) {
     margin-top: var(--spacing);
     border-radius: var(--tab-border-radius);
     border: none !important;
-    padding-top: 9px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+	height: 40px;
 }
 
 tab-item.collapsed{
@@ -250,7 +251,7 @@ tab-item:not(pinned) tab-closebox {
 
 tab-item.pinned {
     margin: 5px !important;
-    padding: 5px !important;
+    padding: 0px !important;
     transition   : all 0.1s var(--ease-out);
 }
 
@@ -276,19 +277,19 @@ tab-item.active .contextual-identity-marker {
 }
 
 tab-item.active.contextual-identity-firefox-container-1 {
-    background: linear-gradient(to right, #3182CE , #0BC5EA) !important;
+    background: linear-gradient(to right, #3182CEAA , #0BC5EAAA) !important;
 }
 
 tab-item.active.contextual-identity-firefox-container-2 {
-    background: linear-gradient(to right, #DD6B20 , #F56565) !important;
+    background: linear-gradient(to right, #DD6B20AA , #F56565AA) !important;
 }
 
 tab-item.active.contextual-identity-firefox-container-3 {
-   background: linear-gradient(to right, #38A169 , #38B2AC) !important;
+   background: linear-gradient(to right, #38A169AA , #38B2ACAA) !important;
 }
 
 tab-item.active.contextual-identity-firefox-container-4 {
-   background: linear-gradient(to right, #D53F8C , #9F7AEA) !important;
+   background: linear-gradient(to right, #D53F8CAA , #9F7AEAAA) !important;
 }
 
 /***********************************/
